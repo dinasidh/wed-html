@@ -1,0 +1,42 @@
+*{
+    background-color: lightblue;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+:hover{
+    background-color: lightgreen;
+}
+h1{
+    color: white;
+    background-color: darkblue;
+}
+h2{
+    color: white;
+    background-color: darkblue;
+}
+img{
+    border: 5px solid rgb(214, 170, 170);
+    animation: forwards 2s;
+
+    
+}img:hover{
+    animation: forwards 2s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+@keyframes forwards{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
